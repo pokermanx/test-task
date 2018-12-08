@@ -1,11 +1,10 @@
-
-.col{
+.col {
     width: 400px;
     height: 440px;
     padding: 25px;
   }
   
-  .card{
+.card{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -19,18 +18,18 @@
     overflow: hidden;
   }
   
-  .card:hover {
+.card:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
   
-  .overlay{
+.overlay{
     height: 45%;
     position: relative;
     display: flex;
     overflow: hidden;
   }
   
-  .image{
+.image{
     height: 100%;
     width: 100%;
     /* background-image: url(https://cdn.wccftech.com/wp-content/uploads/2015/12/dayz-alone-on-the-hill-dayz.jpg); */
@@ -40,12 +39,12 @@
     transition: .5s;
   } 
   
-  .card:hover .image{
+.card:hover .image{
     filter: contrast(100%);
     transform: scale(1.1);
   }
   
-  .overlay i{
+.overlay i{
     position: absolute;
     font-size: 24px;
     margin: 15px 15px 0 0;
@@ -57,12 +56,12 @@
     transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover .overlay i{
+.card:hover .overlay i{
     opacity: 1;
     top: -19px;
   }
   
-  .data i{
+.data i{
     cursor: pointer;
     position: absolute;
     right: 200px;
@@ -73,29 +72,29 @@
     color: #383838;
   }
   
-  .card:hover .data i{
+.card:hover .data i{
     right: 15px;
     opacity: 1;
   }
   
-  .title{
+.title{
     color: #383838;
     text-transform: capitalize;
     margin-bottom: 10px; 
   }
   
-  .data{
+.data{
     position: relative;
     padding: 15px;
     height: 55%;
     transition: .5s;
   }
   
-  .data article{
+.data article{
     font-size: 14px;
   }
   
-  .bottom{
+.bottom{
     position: absolute;
     bottom: 0;
     padding: 0 15px;
@@ -108,7 +107,7 @@
     align-items: center;
   }
   
-  .bottom p{
+.bottom p{
     
     text-align: center;
     font-size: 14px;
@@ -117,19 +116,19 @@
     text-transform: uppercase; 
   }
   
-  .bottom p:not(:last-child){
+.bottom p:not(:last-child){
     border-right: 1px solid #e0e0e0;
   }
   /* CONTENT END*/
   
   /* CARD */
-  .genre{
+.genre{
     display: flex;
     font-size: 12px;
     color: #888888;
   }
   
-  .genre ul{
+.genre ul{
     display: flex;
     flex-wrap: wrap;
     padding: 0 15px;
@@ -137,12 +136,12 @@
     width: 100%;    
   }
   
-  .genre ul li a{
+.genre ul li a{
     color: #888888;
     margin: 0 3px;
   }
   
-  .blur{
+.blur{
     position: absolute;
     bottom: 40px;
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #f8f8f8);

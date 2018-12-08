@@ -1,4 +1,16 @@
-<img src={{data.imgUrl}} alt="">
-<p> {{data.title}} </p>
-<p> {{data.description}} </p>
-<p> {{data.price}} </p>
+<div class="col">
+  <div class="card">
+      <div class="overlay">
+          <div class="image" [ngStyle]="{'background-image': 'url(' + data.imgUrl + ')'}"></div>
+      </div>
+      <div class="data">
+          <h3 class="title">{{data.title}}</h3>
+          <i class="fas fa-angle-double-right" routerLink="/serial/{{data.id}}"></i>
+          <article>{{data.description}}</article>
+      </div>
+      <div class="blur"></div>
+      <div class="bottom">
+          <p class="price">{{data.price}}</p>
+      </div>
+  </div>
+</div>

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { SearchService } from '../services/search.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private searchService: SearchService,
+              private ref: ChangeDetectorRef ) { }
 
-  ngOnInit() {
+  sendMessage(value: string): void {
+    this.searchService.changeMessage(value)
   }
 
+  ngOnInit() {
+    this.searchService.currentMessage.subscribe( () => {
+      this.ref.markForCheck();
+    })
+  }
 }

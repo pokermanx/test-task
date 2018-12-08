@@ -10,7 +10,7 @@
     <!-- <input type="checkbox" id="switch" (click)="onDarkTheme()"/> -->
     <!-- <label for="switch">Toggle</label> -->
     <div class="group">
-      <input type="search" class="" class="searchbar" placeholder="Search">
+      <input type="search" (keyup)="sendMessage($event.target.value)" id="search" class="searchbar" placeholder="Search">
     </div>
   </div>
 </header>

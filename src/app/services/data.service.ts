@@ -9,84 +9,84 @@ export class DataService {
   public data: Item[] = [
     {
       id: 0,
-        title: "Car",
+        title: "Car1",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 1,
-        title: "Car",
+        title: "Car2",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 2,
-        title: "Car",
+        title: "Car3",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 3,
-        title: "Car",
+        title: "Car4",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 4,
-        title: "Car",
+        title: "Car5",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 5,
-        title: "Car",
+        title: "Car6",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 6,
-        title: "Car",
+        title: "Car7",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 7,
-        title: "Car",
+        title: "Car8",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 8,
-        title: "Car",
+        title: "Car9",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 9,
-        title: "Car",
+        title: "Car10",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 10,
-        title: "Car",
+        title: "Car11",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
     },
     {
       id: 11,
-        title: "Car",
+        title: "Car12",
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png"
