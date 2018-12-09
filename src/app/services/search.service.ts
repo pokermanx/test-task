@@ -8,7 +8,7 @@ export class SearchService {
     currentMessage = this.messageSource.asObservable();
     constructor() {}
   
-    changeMessage(message: string) {
+    changeMessage = (message: string) => {
       this.messageSource.next(message)
     }
 }

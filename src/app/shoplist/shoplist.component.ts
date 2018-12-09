@@ -3,7 +3,8 @@ import { Item } from '../models/item';
 import { DataService } from '../services/data.service'
 import { PaginationService } from '../services/pagination.service';
 import { SearchService } from '../services/search.service';
-import { Subject } from 'rxjs';
+import * as _ from 'lodash'
+
 
 @Component({
   selector: 'app-shoplist',
@@ -11,6 +12,7 @@ import { Subject } from 'rxjs';
   styleUrls: ['./shoplist.component.scss'],
   providers: [ DataService, PaginationService ],
 })
+
 
 export class ShoplistComponent implements OnInit {
 
@@ -20,11 +22,11 @@ export class ShoplistComponent implements OnInit {
               private ng: NgZone) {}
 
   private allItems: Item[];
+  private counter: number = 0;
   pager: any = {};
   pagedItems: any[];
   filteredItems: any[];
   input: string;
-  subject: Subject<string>;
 
   ngOnInit() {
     this.allItems = this.dataservice.getData();
@@ -32,21 +34,36 @@ export class ShoplistComponent implements OnInit {
       this.ng.run( () => {
         this.input = message
         this.filteredItems = this.allItems
-        .filter(item => {
-          return item.title
-            .toLowerCase()
-            .includes(this.input.toLowerCase()) //||
-            // item.description
-            //   .toLowerCase()
-            //   .includes(this.input.toLowerCase())
-        });
+          .filter(item => {
+            return item.title
+              .toLowerCase()
+              .includes(this.input.toLowerCase()) //||
+              // item.description
+              //   .toLowerCase()
+              //   .includes(this.input.toLowerCase())
+          });
         this.setPage(1);
       })
     });
   }
 
-  setPage(page: number) {
+  sortHandler = () => {
+    console.log(this.filteredItems)
+    if (this.counter != 0) {
+      console.log("reversing")
+      this.filteredItems = this.filteredItems.reverse()
+      this.counter--;
+    } else {
+      console.log("sorting")
+      this.filteredItems = _.sortBy(this.filteredItems, 'date');
+      this.counter++;
+    }
+    console.log(this.filteredItems)
+    this.setPage(1);
+  }
+
+  setPage = (page: number) => {
     this.pager = this.pagerService.getPager(this.filteredItems.length, page, 8); 
-    this.pagedItems = this.filteredItems.slice(this.pager.startIndex, this.pager.endIndex + 1) 
+    this.pagedItems = this.filteredItems.slice(this.pager.startIndex, this.pager.endIndex + 1)
   }
 }

@@ -1,13 +1,40 @@
+.sorter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.clickable {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  font-size: 12px
+}
+
+.sortby {
+  color: grey;
+  font-size: 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+}
+
+.arrow {
+  color: grey;
+}
+
 .shoplist {
   position: relative;
-  top: 100px;
   left: 0; 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: auto;
-}
-
-.text-center {
-  margin-top: 70px;
 }

@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
   constructor(private searchService: SearchService,
               private ref: ChangeDetectorRef ) { }
 
-  sendMessage(value: string): void {
+  sendMessage = (value: string): void => {
     this.searchService.changeMessage(value)
   }
 

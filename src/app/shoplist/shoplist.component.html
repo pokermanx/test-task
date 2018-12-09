@@ -1,10 +1,19 @@
+
+<!-- sorter -->
+<div class="sorter">
+    <div (click)="sortHandler()" class="clickable">
+        <span class="sortby">Date</span>
+        <span class="arrow">🢂</span>
+    </div>
+</div>
+<!-- items -->
 <div class="shoplist">
-    <!-- items -->
   <div *ngFor="let i of pagedItems">
     <app-item-card [data]="i"></app-item-card>
   </div>
-  <!-- pager -->
 </div>
+
+<!-- pager -->
 <div class="text-center">
   <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
       <li [ngClass]="{disabled:pager.currentPage === 1}">
