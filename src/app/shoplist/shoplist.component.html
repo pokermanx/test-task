@@ -1,9 +1,8 @@
-
 <!-- sorter -->
 <div class="sorter">
-    <div (click)="sortHandler()" class="clickable">
+    <div (click)="sortHandler($event.path)" class="clickable">
         <span class="sortby">Date</span>
-        <span class="arrow">🢂</span>
+        <span id="arrow" class="arrow">🢂</span>
     </div>
 </div>
 <!-- items -->

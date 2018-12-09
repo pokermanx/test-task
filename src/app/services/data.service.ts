@@ -9,10 +9,10 @@ export class DataService {
   public data: Item[] = [
     {
       id: 0,
-        title: "Car1",
-        description: "Some kind of Car",
-        price: "20000$",
-        imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png",
+        title: "Bose SoundLink Micro Bluetooth speaker - Black",
+        description: "CRISP, BALANCED SOUND and unmatched bass for a Bluetooth speaker its size, plays loud & clear outdoors—for beach days or camping trips WATERPROOF spea CRISP, BALANCED SOUND and unmatched bass for a Bluetooth speaker its size, plays loud & clear outdoors—for beach days or camping trips WATERPROOF spea",
+        price: "$79.00",
+        imgUrl: "https://images-na.ssl-images-amazon.com/images/I/717RzqkS5GL._SX679_.jpg",
         date: '2016-01-16T05:23:38+00:00'
     },
     {
@@ -29,7 +29,7 @@ export class DataService {
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png",
-        date: '2016-01-12T05:23:38+00:00'
+        date: '2016-03-12T05:23:38+00:00'
     },
     {
       id: 3,
@@ -61,7 +61,7 @@ export class DataService {
         description: "Some kind of Car",
         price: "20000$",
         imgUrl: "https://www.alamo.com/alamoData/vehicle/bookingCountries/US/CARS/SCAR.doi.320.high.imageLargeThreeQuarterNodePath.png/1522248333860.png",
-        date: '2016-01-16T05:23:38+00:00'
+        date: '2016-06-16T05:23:38+00:00'
     },
     {
       id: 7,

@@ -11,6 +11,7 @@ import { ShoplistComponent } from './shoplist/shoplist.component';
 import { SearchService } from './services/search.service';
 import { ItemPageComponent } from './item-page/item-page.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
     ShoplistComponent,
     ItemPageComponent,
     SubscribeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

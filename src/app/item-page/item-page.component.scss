@@ -10,6 +10,7 @@
     height: 100%;
     background:rgba(0, 0, 0, 0.5);
     z-index: 102;
+    overflow-y: scroll;
 }
 
 
@@ -26,7 +27,7 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 80%;
+    min-height: 80%;
     min-width: 400px;
     width: 60%;
     -webkit-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
@@ -40,23 +41,32 @@
     outline: none;
 
     &__button {
-        margin: 5px 5px 0 0;
+        margin: -20px -20px 0 0;
         cursor: pointer;
+        color: white;
+        box-shadow: white;
+        font-size: 20px
     }
 }
 
-.image{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+.image-container {
+    height: 300px;
     display: flex;
     position: relative;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    overflow: hidden;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    & :hover {
+    }
 }
 
 .data {
+    overflow: auto;
     font-family: 'Dosis', sans-serif; 
     display: flex;
     justify-content: center;
