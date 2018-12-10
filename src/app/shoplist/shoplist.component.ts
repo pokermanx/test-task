@@ -50,12 +50,10 @@ export class ShoplistComponent implements OnInit {
   sortHandler = (node) => {
     const $arrow = document.getElementById('arrow');
     if (this.counter != 0) {
-      console.log("reversing")
       this.filteredItems = this.filteredItems.reverse()
       $arrow.textContent = '🡹';
       this.counter--;
     } else {
-      console.log("sorting")
       this.filteredItems = _.sortBy(this.filteredItems, 'date');
       $arrow.textContent = '🡻';
       this.counter++;

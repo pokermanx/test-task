@@ -7,11 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubscribeComponent implements OnInit {
 
-  subscribers: any[];
+  subscribers: string[] = [];
   
   constructor() { }
 
   ngOnInit() {
+  }
+
+  subscribeHandler = () => {
+    const input = (<HTMLInputElement>document.getElementById('email')).value
+    this.subscribers.push(input);
+    console.log(this.subscribers);
   }
 
 }
