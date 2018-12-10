@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="wrapper">
+      <div class="close" routerLink="/" (click)="close()">
+        <span class="close__button">✖</span>
+      </div>
+      <div class="image-container">
+        <div class="image" [ngStyle]="{'background-image': 'url(' + items[id].imgUrl + ')'}" alt=""></div>
+      </div>
+      <div class="data">
+        <h1>{{items[id].title}}</h1>
+        <p class="desc">{{items[id].description}}</p>
+        <p class="price">Price: {{items[id].price}}</p>
+      </div> 
+      <div class="order">
+        <p>Order Now!</p>
+      </div>     
+    </div>
+</div>

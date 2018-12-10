@@ -1,0 +1,46 @@
+.wrap {
+    width: 100%;
+    background-color: #37da6d;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 100px;
+	margin: auto;
+}
+
+.field-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.subscribe-button {
+    background-color: #337ab7;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white; 
+    cursor: pointer;
+    
+    &:hover {
+        background-color: #4c83b3;
+        color: #e2e0e0
+    }
+}
+
+input {
+    font-size:18px; 
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:200px;
+    border:none;
+    border-bottom:1px solid #757575;
+    outline: none;
+}

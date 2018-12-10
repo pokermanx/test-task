@@ -1,0 +1,15 @@
+<div class="col">
+  <div class="card" routerLink="/item/{{data.id}}">
+      <div class="overlay">
+          <div class="image" [ngStyle]="{'background-image': 'url(' + data.imgUrl + ')'}"></div>
+      </div>
+      <div class="data">
+          <h3 class="title">{{data.title}}</h3>
+          <article>{{data.description}}</article>
+      </div>
+      <div class="blur"></div>
+      <div class="bottom">
+          <p class="price">{{data.price}}</p>
+      </div>
+  </div>
+</div>
