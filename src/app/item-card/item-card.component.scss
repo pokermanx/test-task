@@ -69,8 +69,7 @@
 
 
     & article {
-    font-size: 14px;
-
+      font-size: 14px;
     }
 
     &:hover {
@@ -149,10 +148,10 @@
   }
 
 .show-more {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  color: #888888;
-  font-size: 14px;
-  flex-grow: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #888888;
+    font-size: 14px;
+    flex-grow: 1;
 }

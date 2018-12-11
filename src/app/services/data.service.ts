@@ -155,7 +155,8 @@ export class DataService {
         price: "$62.07",
         imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/71Ygt%2BF36bL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/81SRk4AzM1L._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71wsnEqkdXL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71c2B9FAKKL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71G8BEtTrmL._SL1500_.jpg"],
         date: '2016-01-12T05:23:38+00:00'
-    }
+    },
+
   ];
 
   getData(): Item[] {
