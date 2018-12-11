@@ -1,7 +1,7 @@
 <div class="col">
   <div class="card" routerLink="/item/{{data.id}}">
       <div class="overlay">
-          <div class="image" [ngStyle]="{'background-image': 'url(' + data.imgUrl + ')'}"></div>
+          <div class="image" [ngStyle]="{'background-image': 'url(' + data.imgUrl[0] + ')'}"></div>
       </div>
       <div class="data">
           <h3 class="title">{{data.title}}</h3>
@@ -10,6 +10,9 @@
       <div class="blur"></div>
       <div class="bottom">
           <p class="price">{{data.price}}</p>
+          <div class="show-more">
+                Show more ⯆
+        </div>
       </div>
   </div>
 </div>

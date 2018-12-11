@@ -49,20 +49,24 @@ export class ShoplistComponent implements OnInit {
 
   sortHandler = (node) => {
     const $arrow = document.getElementById('arrow');
-    if (this.counter != 0) {
-      this.filteredItems = this.filteredItems.reverse()
-      $arrow.textContent = '🡹';
-      this.counter--;
-    } else {
+    if (this.counter === 0) {
       this.filteredItems = _.sortBy(this.filteredItems, 'date');
-      $arrow.textContent = '🡻';
+      $arrow.textContent = '⮟';
       this.counter++;
+    } else if (this.counter === 1) {
+      this.filteredItems = this.filteredItems.reverse()
+      $arrow.textContent = '⮝';
+      this.counter++;
+    } else {
+      this.filteredItems = this.allItems;
+      $arrow.textContent = '⮞';
+      this.counter = 0;
     }
     this.setPage(1);
   }
 
   setPage = (page: number) => {
-    this.pager = this.pagerService.getPager(this.filteredItems.length, page, 8); 
+    this.pager = this.pagerService.getPager(this.filteredItems.length, page, 12); 
     this.pagedItems = this.filteredItems.slice(this.pager.startIndex, this.pager.endIndex + 1)
   }
 }

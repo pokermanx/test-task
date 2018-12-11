@@ -4,7 +4,7 @@ export class Item {
         public title: string,
         public description: string,
         public price : string,
-        public imgUrl: string,
+        public imgUrl: string[],
         public date: string
     ){}
 }
