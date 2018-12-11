@@ -62,7 +62,6 @@ export class ShoplistComponent implements OnInit {
       $arrow.textContent = '⮞';
       this.counter = 0;
     }
-    console.log(this.filteredItems)
     this.setPage(1);
   }
 

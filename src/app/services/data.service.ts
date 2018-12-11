@@ -156,6 +156,149 @@ export class DataService {
         imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/71Ygt%2BF36bL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/81SRk4AzM1L._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71wsnEqkdXL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71c2B9FAKKL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71G8BEtTrmL._SL1500_.jpg"],
         date: '2016-01-12T05:23:38+00:00'
     },
+    {
+      id: 12,
+        title: "Nintendo Switch Pro Controller",
+        description: `Take your game sessions up a notch with the Nintendo Switch Pro Controller.
+        Includes motion controls, HD rumble, built-in amiibo functionality, and more.
+        Comes with charging cable (USB-C to USB-A)`,
+        price: "$52.79",
+        imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/71w61HvlGeL._AC_.jpg", "https://images-na.ssl-images-amazon.com/images/I/7166--AaJIL._AC_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71CbYcn-kZL._AC_.jpg", "https://images-na.ssl-images-amazon.com/images/I/81GutZPdWiL._AC_.jpg"],
+        date: '2016-01-16T05:01:38+00:00'
+    },
+    {
+      id: 13,
+        title: "Bluetooth Headphones TaoTronics Wireless 4.2 Magnetic Earbuds Snug Fit for Sports with Built in Mic TT-BH07 (IPX6 Waterproof aptX Stereo 6-8 Hours Playtime) Blue",
+        description: `Perfect workout headphones that are snug and secure so the headphones stay put while running, biking or at the gym.
+        Built-in magnets let you attach the two headphones together when not using, and wear like a necklace around your neck, a convenient way to carry around when you don't need them.
+        The rechargeable long battery life means you get 6-8 hours of continuous music, or can relax with 80 hours of standby time when powered with a 5V external charger.
+        cVc 6.0 Noise Cancelling Microphone reduces outside noises, enable clearer microphone sound.
+        TT-BH07 Earbuds that work with the latest Bluetooth 4.2 technology; easy and fast pairing; aptX codec provides pure, CD-like high quality sound for compatible devices`,
+        price: "$21.99",
+        imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/51-uSQg6cjL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71oYpNZU4LL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61KjGpWsIPL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61ZqmURazKL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71WjO1fzRbL._SL1000_.jpg"],
+        date: "2016-01-16T05:02:38+00:00"
+      },
+      {
+        id: 14,
+          title: "Nintendo Joy-Con (L/R) - Neon Red/Neon Blue",
+          description: `Introducing Joy-Con, controllers that make new kinds of gaming possible, for use with Nintendo Switch.
+          The versatile Joy-Con offer multiple surprising new ways for players to have fun.Battery life Approximately 20 hours
+          Two Joy-Con can be used independently in each hand, or together as one game controller when attached to the Joy-Con grip.
+          They can also attach to the main console for use in handheld mode, or be shared with friends to enjoy two-player action in supported games.
+          Each Joy-Con has a full set of buttons and can act as a standalone controller, and each includes an accelerometer and gyro-sensor, making independent left and right motion control possible.`,
+          price: "$66.64",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/71UtjHT65EL._AC_.jpg", "https://images-na.ssl-images-amazon.com/images/I/51X3ss9GezL._AC_.jpg"],
+          date: "2016-01-16T05:11:38+00:00"
+      },
+      {
+        id: 15,
+          title: "First Alert 1039102 One Link Safe & Sound Smart Speaker with Amazon Alexa Smoke + Carbon Monoxide Alarm, Onelink",
+          description: `First Alert introduces the Onelink Safe & Sound, an all-new, Alexa-enabled, Apple HomeKit-compatible hardwired photoelectric smoke and electrochemical carbon monoxide alarm, featuring a state-of-the-art, omni-directional speaker backed by First Alert’s unparalleled reliability and equipped with the power of Alexa
+          Optimal ceiling placement enhances the speaker’s acoustic quality and provides crisp vocals and deep, rich bass that resonate throughout the room; make installation fast and easy by using the included AC adapter plugs to replace your existing hardwire alarms without rewiring (AC power is required for Onelink Safe & Sound)
+          You can talk to Alexa on your Safe & Sound. Just ask Alexa to play music, fill you in on the news, check weather, control smart home devices, and more. Alexa’s always adding skills, so it gets smarter over time
+          Just ask for a song, artist, or genre from Amazon Music, Spotify, Pandora, and more. Onelink can also play Audible audiobooks, radio stations, news, and more
+          Get remote notifications of an emergency in your home, track carbon monoxide levels, and customize a nightlight using First Alert’s Onelink Home app`,
+          price: "$185.00",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/81LqUU2vHTL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/81LFSpx4H4L._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/91DIS%2BBvhLL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/91uFmnF0cSL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/81rCmOQc1VL._SL1500_.jpg"],
+          date: "2016-01-16T05:01:32+00:00"
+      },
+      {
+        id: 16,
+          title: "Ooma Butterfleye Smart Security Camera with Battery Backup, 7 Days of Free Storage, and 16GB of Internal Storage, Indoor",
+          description: `Watch over your home from anywhere with 24/7 streaming and recording.
+          7 days of FREE cloud storage.
+          Optional facial recognition identifies people coming and going and gives smart alerts.
+          Continues to work during Internet and power outages with built-in storage and battery backup.
+          Built-in speaker to talk and listen, and automatic arm/disarm (optional)
+          Full HD video with instant video capture.
+          Compatible with Ooma Home Security for whole house protection.`,
+          price: "$149.99",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/61JbrJPCiKL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71itQqOiAUL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61JNQVrMN5L._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71dLCrRepbL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/715YQEmg64L._SL1500_.jpg"],
+          date: "2016-01-16T08:01:38+00:00"
+      },
+      {
+        id: 17,
+          title: `2018 Acer 15.6" HD Premium Business Chromebook-Intel Dual-Core Celeron N3060 up to 2.48Ghz Processor, 2GB RAM, 16GB SSD, Intel HD Graphics, HDMI, WiFi, Bluetooth, Chrome OS-(Certified Refurbished)`,
+          description: `This Certified Refurbishd product is tested and certified to look and work like new. The refurbishing process includes functionality testing, basic cleaning, inspection, and repackaging. The product ships with all relevant accessories, a minimum 90-day waranty, and may arrive in a generic box. Only select sellers who maintain a high performance bar may offer Certified Refurbishd products on Amazon.com
+          Intel Dual-Core Celeron N3060 (Up to 2.48GHz, 2MB Cache), Intel HD Graphics 400
+          15.6" HD Backlit LED Display (1366 x 768) with ComfyView Technology, Integrated HD Webcam
+          2GB LPDDR3 SDRAM, 16GB eMMC SSD, Multi-Format Media Reader, Integrated Stereo Speakers and Microphone, NO Optical Drive
+          802.11a/b/g/n/ac, WiFi, Bluetooth 4.0, 2x USB 3.0, 1x HDMI, Chrome OS, 3-Cell Battery, Classic Black Color`,
+          price: "$163.00",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/418NprUVzFL.jpg", "https://images-na.ssl-images-amazon.com/images/I/419FNR6M%2B0L.jpg", "https://images-na.ssl-images-amazon.com/images/I/41P3lxLs24L.jpg", "https://images-na.ssl-images-amazon.com/images/I/61WIazJlRbL._SL1293_.jpg", "https://images-na.ssl-images-amazon.com/images/I/31m-RMzIRsL.jpg"],
+          date: "2010-01-16T05:01:38+00:00"
+      },
+      {
+        id: 18,
+          title: `Acer R11 Convertible 2-in-1 Chromebook, 11.6" HD Touchscreen, Intel Quad-Core N3150 1.6Ghz, 4GB Memory, 32GB SSD, Bluetooth, Webcam, Chrome OS (Certified Refurbished)`,
+          description: `This Certified Refurbished product is tested and certified to look and work like new. The refurbishing process includes functionality testing, basic cleaning, inspection, and repackaging. The product ships with all relevant accessories, a minimum 90-day warranty, and may arrive in a generic box. Only select sellers who maintain a high performance bar may offer Certified Refurbished products on Amazon.com
+          Intel Celeron N3150 Quad-Core Processor 1.6GHz with Intel Burst Technology up to 2.08GHz,
+          Chrome, 11.6" HD Widescreen LED-backlit Display (1366x768 resolution; 16:9 aspect ratio), Multi-touch screen, supporting 10 finger touch,
+          Intel HD Graphics, 4GB DDR3L Memory, 32GB Solid State Drive (SSD) internal storage
+          Bluetooth 4.0, Built-In HD Webcam,1 USB 3.0 Port, 1 USB 2.0 Port, HDMI Port, 3-cell Li-ion Battery (3220 mAh), Up to 10-hours. 45 W`,
+          price: "$245.00",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/71KqV42X-zL._SL1159_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71r0GBONd9L._SL1229_.jpg", "https://images-na.ssl-images-amazon.com/images/I/51Sg-hVKt6L._SL1159_.jpg", "https://images-na.ssl-images-amazon.com/images/I/51MQXxHCa2L._SL1284_.jpg", "https://images-na.ssl-images-amazon.com/images/I/51C2Z7lQ9HL._SL1500_.jpg"],
+          date: "2006-01-16T05:01:38+00:00"
+      },
+      {
+        id: 19,
+          title: "SanDisk 64GB Ultra microSDXC UHS-I Memory Card with Adapter - 100MB/s, C10, U1, Full HD, A1, Micro SD Card - SDSQUAR-064G-GN6MA",
+          description: `Ideal for Android-based smartphones and tablets
+          Transfer read speeds of up to 100MB/s (Based on internal testing; performance may be lower depending on host device, interface, usage conditions and other factors.)
+          Rated A1 for faster app performance (Results may vary based on host device, app type and other factors.)
+          UHS Speed Class U1 and Speed Class 10 for Full HD video recording and playback (Full HD (1920x1080) video support may vary based upon host device, file attributes, and other factors.)
+          Shockproof, temperature-proof, waterproof, and X-ray-proof (Card only)
+          10-year limited manufacturer warranty`,
+          price: "$9.99",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/61TPoMI1NZL._SL1100_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61IWJpxxaXL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61Q0Lib8hDL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/51cNtpuJGhL.jpg", "https://images-na.ssl-images-amazon.com/images/I/81fFqsoyKfL._SL1500_.jpg"],
+          date: "2016-01-16T05:01:32+10:00"
+      },
+      {
+        id: 20,
+          title: "2.1 Channel Bluetooth Sound Bar, Wohome TV Soundbar with Built-in Subwoofer(Wireless Home Theater Speaker,32-Inch, 60W, 3 Drivers, Remote Control, Wall Mountable, Model S05)",
+          description: `32-Inch TV Sound Bar：with built-in subwoofer provides powerful bass, enhance home-audio systems, great for small environments, suit for 32" or above TVs including Samsung/Vizio/TCL/LG/Sharp/Philips/Sony and many more TVs.
+          2.1 Channel Soundbar: come with 2x 20w full-range speakers and 1x 20w sub-range speakers, output surround sound for all your movies, music and TV shows, powerful 60w, Enjoy 97 dB of room filling, crystal clear sound with less than 1% total harmonic distortion
+          4 Sound Mode: designed with DSP Technology, support 4 sound modes including movie, news, music default sound mode, what's more, default mode can adjust bass and treble.
+          Wired and Wireless: support wireless Bluetooth 4.0, supply optical cable and AUX cable for wired connection
+          100% Satisfaction Service: One year warranty, 45 days money back guarantee, lifetime technical support, please feel free to contact us via Amazon message or refer to the user manual to find our service mail to contact us.`,
+          price: "$42.39",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/61vdVWmGMuL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71zh1bdwUKL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61VrcFRz3cL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71FL4faONQL._SL1500_.jpg", "https://www.amazon.com/Bluetooth-Soundbar-Subwoofer-Mountable-S05/dp/B07FDVPY9D/ref=gbps_img_m-6_13db_bd5efc30?smid=AFLAMQSJ9S7F2&pf_rd_p=f49ce844-2edc-44b9-aee5-a2735bd513db&pf_rd_s=merchandised-search-6&pf_rd_t=101&pf_rd_i=18445253011&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=80EG23PTXH4B6BF117TQ"],
+          date: "2016-01-16T02:01:38+00:00"
+      },
+      {
+        id: 21,
+          title: "Stylus Pens for Touch Screens, iPad Pencil Fine Point Active Smart Digital Pen for Tablet",
+          description: `[Perfect Precision] This pencil is sensitive to pressure and tilt, so you can easily vary line weight, create subtle shading, it makes your iPad Pro even more powerful and can help you be more creative.
+          [Universal Compatible] Works with any Touch Screen Tablets and Smartphones, such as iPad, iPhone, Samsung Dell and most popular tablets.
+          [Long Battery Time] Built-in battery provides 8 hours active use, and with auto sleep function.
+          No connection required, can be used directly
+          Comes with: Stylus Pencil, usb cable, user's Guide`,
+          price: "$27.99",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/51l6kvHXfZL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/51J2ldb%2BEcL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/51IXXUEJaaL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/6175l%2B3VXTL._SL1500_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71Vhq5wpaeL._SL1500_.jpg"],
+          date: "2016-01-17T02:01:38+00:00"
+      },
+      {
+        id: 22,
+          title: "Victure 1080P FHD WiFi IP Camera Indoor Wireless Security Camera with Motion Detection Night Vision Home Surveillance Monitor with 2-Way Audio for Baby/Pet/Elder with iOS/Android",
+          description: `[VIDEO ENCRYPTION TECHNOLOGY ] The unique encryption technology is adopted by this IP camera to save videos on micro SD card. Nobody can copy the SD card's video file through the card reader even when your camera or SD card is stolen.Video files in SD card can only be accessed by yourself in your own account.
+          [STABLE WIFI CONNECTION ] Easy and Quick installation and stable 2.4GHz WIFI connection for Victure IP Camera, just follow steps in the manual with "IPC360" app. Adapt to iOS & Android. You can not only set several preset positions in each camera, but also add several cameras in different terminals.
+          [1080P NIGHT VISION & MOTION DETECTION] 10 pcs 850nm IR LEDs technology extend the viewing distance up to 30 feet in pitch dark to offer you a super night vision experience. Wifi Camera will monitor movements and has the ability to send notifications to your mobile phone to help catch home invaders in action.`,
+          price: "$31.99",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/61vHEuyhgML._SL1001_.jpg", "https://images-na.ssl-images-amazon.com/images/I/610oJ%2BKVSNL._SL1001_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61lUcHUm4wL._SL1001_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71lGoVa5LUL._SL1001_.jpg", "https://images-na.ssl-images-amazon.com/images/I/71eFoPBkmXL._SL1001_.jpg"],
+          date: "2016-02-16T05:01:37+00:00"
+      },
+      {
+        id: 23,
+          title: `MSI GV62 8RD-200 15.6" Full HD Performance Gaming Laptop PC i5-8300H, GTX 1050Ti 4G, 8GB RAM, 16GB Intel Optane Memory + 1TB HDD, Win 10 64 bit, Black, Steelseries Red Backlit Keys`,
+          description: `Display: 15.6" Full HD EDP IPS-Level | Operating System: Win 10 Multi-language
+          Processor: New Intel 8th Gen Core i5-8300H 2.3 - 4.0GHz
+          Graphics: NVIDIA GeForce GTX1050Ti 4G GDDR5
+          Memory: 8GB DDR4 2400MHz 2 Sockets; Max Memory 32GB | Storage: New Intel Optane 16GB + 1TB (5400RPM)
+          Special Features: 1 Year Limited warranty (Include 1 Year Global) | Intel Optane Memory (16GB): Launches programs faster, Powers quicker access to files, Loads game levels in an instant`,
+          price: "$799.00",
+          imgUrl: ["https://images-na.ssl-images-amazon.com/images/I/61wju0GHrOL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61c0m08MgAL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61fbbGMCnYL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61QrXHzXrzL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/711FKLzgirL._SL1000_.jpg"],
+          date: "2016-11-16T05:11:38+00:00"
+      },
 
   ];
 
