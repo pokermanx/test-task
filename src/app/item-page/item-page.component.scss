@@ -1,5 +1,5 @@
 :host {
-    position:fixed;
+    position: fixed;
     padding:0;
     margin:0;
 
@@ -11,6 +11,7 @@
     background:rgba(0, 0, 0, 0.5);
     z-index: 102;
     overflow-y: scroll;
+    display: block;
 }
 
 
@@ -23,13 +24,22 @@
 }
 
 .wrapper {
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+
+}
+
+
+
+.desc-container {
+    margin-top: -70px;
     border-radius: 10px; 
     background-color: white;
     display: flex;
     flex-direction: column;
-    min-height: 80%;
     min-width: 400px;
-    width: 60%;
+    width: 80%;
     -webkit-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
@@ -41,7 +51,7 @@
     outline: none;
 
     &__button {
-        margin: -20px -20px 0 0;
+        margin: 5px 5px 0 0;
         cursor: pointer;
         color: white;
         box-shadow: white;
@@ -50,54 +60,129 @@
 }
 
 .image-container {
-    height: 300px;
     display: flex;
+    flex-direction: column;
     position: relative;
-    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 15px;
+    padding: 10px 5px;
+    margin-right: 10px;     
 }
 
-.image{
-    height: 100%;
-    width: 100%;
+.border {
+    border: rgba(255, 255, 255, 0.14) 7px solid!important;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.image {
+    height: 150px;
+    width: 200px;
     background-position: center;
     background-size: cover;
-    & :hover {
+
+    &:hover {
+
+        & ~ .image-large {
+            display: block;
+            z-index: 200;
+        }
     }
 }
 
+.image-large {
+    height: 100%;
+    max-height: 700px;
+    max-width: 700px;
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 8%;
+    left: 33%;
+    background-position: center;
+    background-size: cover;
+    border: #d6d4d4 solid 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 50px 0px rgba(0,0,0,0.75);
+}
+
+
+
 .data {
+    margin: 0 15px;
     overflow: auto;
+    min-height: 800px;  
     font-family: 'Dosis', sans-serif; 
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+
+    & h1 {
+        font-weight: bold;
+    }
+
     & p {
         margin-left: 10px;
         font-size: 20px;
         align-self: flex-start;
+
         &.desc {
             min-height: 410px;
+            border: #d6d4d4 1px solid;
+            border-radius: 5px;
+            background-color: #ebe9e9;
+            padding: 10px;
+            flex-grow: 2;
         }
-        &.price {
-            margin: -10px 10px 10px 0;
-            align-self: flex-end;
+
+        &.separator {
             color: grey;
+            font-size: 20px;
         }
     }
 }
 
+
 .order {
     display: flex;
-    width: 100%;
+    flex-direction: column;
+}
+
+.price {
+    margin: -10px 10px 10px 0;
+    align-self: flex-end;
+    color: grey;
+    font-size: 25px;
+}
+
+.button {
+    margin-bottom: -75px;
+    display: flex;
+    width: 30%;
+    align-self: flex-end;
     justify-content: center;
+    border: #2db42d 2px solid;
     background-color: #4af04a;
-    padding: 10px;
+    padding: 12px;
     border-radius: 10px;
+    transition: 0.3s;
     cursor: pointer;
+    -webkit-box-shadow: 0px 7px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 30px 0px rgba(0,0,0,0.75);
+
     & p {
         font-size: 20px;
         color: black;
+        transition: 0.3s;
+    }
+
+    &:hover {
+        background-color: #6efc6e;
+        & p {
+            color:white;
+        }
     }
 }
 

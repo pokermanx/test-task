@@ -28,13 +28,15 @@ input[type=search] {
 	transition: all .5s;
 }
 input[type=search]:focus {
-	width: 300px;
+	
+	width: 200px;
 	background-color: #fff;
 	border-color: #66CC75;
 	
 	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
 	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
 	box-shadow: 0 0 5px rgba(109,207,246,.5);
+
 }
 
 
